@@ -1,0 +1,127 @@
+<!DOCTYPE
+  html
+  > <html
+  lang='en'
+  > <head
+  > <meta
+  charset='UTF-8'
+  /
+  > <meta
+  name='viewport'
+  content='width=device-width, initial-scale=1.0'
+  /
+  > <title
+  > Responsive
+  Profile
+  Card</title
+  > <style
+  > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--Off-Black);
+  color: var(--White);
+  padding: 1.8rem 3rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: var(--Dark-Grey);
+  padding: 1.4rem;
+  width: 18rem;
+  height: auto;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.image-para img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+.fullname {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+.location {
+  color: var(--Green);
+  font-size: 0.6rem;
+  margin-bottom: 1.1rem;
+  font-weight: bold;
+}
+.job-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  letter-spacing: 1px;
+  color: var(--Green);
+}
+.email {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: var(--White);
+}
+.short-bio {
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--White);
+}
+.button-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-top: 1.2rem;
+}
+.btn {
+  background-color: var(--Grey);
+  color: var(--White);
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.btn:hover {
+  background-color: var(--Green);
+  color: var(--Off-Black);
+}
+.time {
+  font-size: 0.6rem;
+  color: white;
+  margin-top: 1.2rem;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+  .job-title {
+    font-size: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 80px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
