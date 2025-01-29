@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Responsive Profile Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-para">
+        <img
+          src="./images/nsebo.jpeg"
+          alt="Profile Picture"
+          data-testid="profilePicture" />
+        <h1 data-testid="fullName" class="fullname">Uzochukwu Cecilia Oloh</h1>
+        <p data-testid="currentLocation" class="location">Oslo, Norway</p>
+        <p data-testid="emailAddress">uzo.oloh@gmail.com</p>
+        <p data-testid="jobTitle" class="job-title">Front-end Developer</p>
+        <p data-testid="shortBio" class="job-title">
+          A frontend developer who loves creating simple and user-friendly
+          websites.
+        </p>
+      </div>
+      <div class="button-card" data-testid="socialLinks">
+        <a href="https://github.com/uzo" target="_blank"
+          ><button class="btn">GitHub</button></a
+        >
+        <a href="https://twitter.com/uzo" target="_blank"
+          ><button class="btn">Twitter</button></a
+        >
+        <a href="https://linkedin.com/in/uzo" target="_blank"
+          ><button class="btn">LinkedIn</button></a
+        >
+      </div>
+      <p class="time" data-testid="currentTimeUTC" id="utc-time"></p>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
