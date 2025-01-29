@@ -1,27 +1,10 @@
-<!DOCTYPE
-  html
-  > <html
-  lang='en'
-  > <head
-  > <meta
-  charset='UTF-8'
-  /
-  > <meta
-  name='viewport'
-  content='width=device-width, initial-scale=1.0'
-  /
-  > <title
-  > Responsive
-  Profile
-  Card</title
-  > <style
-  > * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
-  --Green: hsl(75, 94%, 57%);
+  --Green: hsl(75, 90%, 23%);
   --White: hsl(0, 0%, 100%);
   --Grey: hsl(0, 0%, 20%);
   --Dark-Grey: hsl(0, 0%, 12%);
@@ -59,7 +42,7 @@ body {
 }
 .location {
   color: var(--Green);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   margin-bottom: 1.1rem;
   font-weight: bold;
 }
@@ -71,8 +54,8 @@ body {
   color: var(--Green);
 }
 .email {
-  font-size: 0.7rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
   color: var(--White);
 }
 .short-bio {
@@ -88,10 +71,12 @@ body {
   gap: 0.25rem;
   margin-top: 1.2rem;
 }
+
 .btn {
   background-color: var(--Grey);
   color: var(--White);
   padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
   border: none;
   border-radius: 0.4rem;
   font-weight: bold;
@@ -103,7 +88,7 @@ body {
 }
 .time {
   font-size: 0.6rem;
-  color: white;
+  color: var(--Green);
   margin-top: 1.2rem;
 }
 @media only screen and (max-width: 375px) {
